@@ -11,6 +11,6 @@ usdt_perp_symbols = [
 ]
 
 # 텍스트 파일로 저장
-with open("usdt_perp_symbols.txt", "w") as f:
+with open("usdt_perp_symbols.txt", "w", encoding="utf-8") as f:
     for symbol in usdt_perp_symbols:
         f.write("BINANCE:" + symbol + "PERP\n")
